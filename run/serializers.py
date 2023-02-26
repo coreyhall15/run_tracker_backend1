@@ -7,3 +7,6 @@ class RunSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Run
         fields = ['id', 'subject', 'details']
+              
+                  
+                      
